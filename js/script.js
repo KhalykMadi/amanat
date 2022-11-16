@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function() {
-  $('.header__link').click(function(event) {
+  $('.header__link,.text1').on('click',function(event) {
     $('body').removeClass('lock');
     $('.header-burger,.header-menu').removeClass('active');
   })
