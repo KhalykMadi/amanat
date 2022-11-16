@@ -58,12 +58,12 @@ var swiper1 = new Swiper(".reviewSwiper", {
 
 // MASK PHONE INPUT
 var phoneMask = IMask(
-  document.getElementById('main__modal_phone'), {
+  document.getElementById('main__modal_tel'), {
     mask: '+{7}(000)000-00-00',
   });
   document.getElementById("main__modal_form").addEventListener('submit', function(e) {
   e.preventDefault()
-  let phone =  document.getElementById('main__modal_phone')
+  let phone =  document.getElementById('main__modal_tel')
   if(phone.value.length < 16){
     phone.style.border = '1px solid red';
     return
