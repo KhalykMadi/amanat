@@ -94,7 +94,6 @@ section {
 
 .header-menu{
   justify-content: space-between;
-  width: 70%;
 }
 
 .menu-list {
@@ -106,6 +105,12 @@ section {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.login{
+  border: 1px solid var(--black);
+  border-radius: 15px;
+  padding: 5px 10px;
 }
 
 .menu-list li a {
